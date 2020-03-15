@@ -1,0 +1,490 @@
+::selection {
+  background-color: none;
+  color: inherit;
+}
+
+body {
+  background-color: pink;
+  font-family: "Luckiest Guy";
+  margin: 0;
+  padding: 0;
+  cursor: url(pain-brush.png) 2 2, pointer;
+}
+
+.style-text {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 5px 5px 3px #000;
+  letter-spacing: 5px;
+}
+
+.keyboard {
+  width: 625px;
+  height: 210px;
+  background-color: #2c2c2d;
+  margin: 0px auto;
+  border-radius: 15px 15px 15px 15px;
+  padding: 30px;
+  color: #eee;
+}
+
+.section-a {
+  position: relative;
+  top: -15%;
+}
+
+/* .dual-green {
+  background-color: rgb(152, 175, 116);
+}
+
+.dual-blue {
+  background-color: rgb(100, 177, 194);
+}
+
+.dual-red {
+  background-color: rgb(200, 154, 149);
+}
+
+.dual-orange {
+  background-color: rgb(218, 137, 90);
+}
+
+.dual-yellow {
+  background-color: rgb(221, 193, 116);
+}
+
+.dual-pink {
+  background-color: rgb(209, 171, 167);
+}
+
+.dual-light-blue {
+  background-color: rgb(142, 173, 194);
+}
+
+.dual-light-red {
+  background-color: #ff5252;
+}  */
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+  color: #222;
+  font-weight: 300;
+  font-style: oblique;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  margin: -20px auto 10px auto;
+  border-radius: 40px;
+}
+
+.space {
+  position: relative;
+  right: -23%;
+}
+
+.key {
+  cursor: url(pain-brush.png), pointer;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius: 2px;
+  float: left;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  background: #3d3c3c;
+  transition: box-shadow 0.7s ease;
+}
+
+.function {
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius: 2px;
+  float: left;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+.section-b {
+  width: 150px;
+  height: 260px;
+  float: left;
+}
+
+.function {
+  font-size: 12px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+.small {
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  padding: 0 5px;
+  padding-top: 2px;
+  height: 28px !important;
+}
+.space1 {
+  margin-right: 43px !important;
+}
+.space2 {
+  margin-right: 25px !important;
+}
+.dual {
+  font-size: 14px;
+  line-height: 20px;
+  width: 30px;
+}
+.backspace {
+  width: 84px;
+  font-size: 12px;
+}
+.tab {
+  width: 50px;
+  line-height: 40px;
+  font-size: 13px;
+}
+.letter {
+  width: 30px;
+}
+.slash {
+  width: 64px;
+}
+.caps {
+  width: 70px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.enter {
+  width: 92px;
+  line-height: 40px;
+  text-align: center;
+  padding-left: 0;
+}
+.shift.left {
+  width: 90px;
+  line-height: 40px;
+  font-size: 12px;
+}
+.shift.right {
+  width: 104px;
+  line-height: 40px;
+  font-size: 13px;
+}
+.ctrl {
+  width: 50px;
+  line-height: 40px;
+  font-size: 13px;
+}
+.space {
+  width: 234px;
+}
+.arrows {
+  position: relative;
+  top: 42px;
+}
+.sec-func .key {
+  width: 32px;
+  font-size: 10px;
+  text-align: left;
+  line-height: 40px;
+  float: left;
+}
+.sec-func div.dual {
+  line-height: 20px;
+}
+.arrows .key {
+  text-align: center;
+  padding-left: 7px;
+  margin-left: 2px;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.key:hover {
+  box-shadow: 0px 0px 20px white;
+  z-index: 1000;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 725px;
+  height: 70px;
+  margin: 0px auto;
+}
+
+.empty-div {
+  height: 35px;
+}
+
+.tank-light-green {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.tank-light-green .middle {
+  width: 70px;
+  height: 50px;
+  background-color: rgb(127, 144, 100);
+  position: absolute;
+}
+
+.tank-light-green .top {
+  width: 70px;
+  height: 30px;
+  background-color: #98af74;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: -15px;
+}
+
+.tank-light-green .bottom {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(127, 144, 100);
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: 35px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+}
+
+.tank-light-blue {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.tank-light-blue .middle {
+  width: 70px;
+  height: 50px;
+  background-color: #5d8791;
+  position: absolute;
+}
+
+.tank-light-blue .top {
+  width: 70px;
+  height: 30px;
+  background-color: #64b1c2;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: -15px;
+}
+
+.tank-light-blue .bottom {
+  width: 70px;
+  height: 40px;
+  background-color: #5d8791;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: 35px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+}
+
+.tank-gray {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.tank-gray .middle {
+  width: 70px;
+  height: 50px;
+  background-color: #8a7472;
+  position: absolute;
+}
+
+.tank-gray .top {
+  width: 70px;
+  height: 30px;
+  background-color: #c89a95;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: -15px;
+}
+
+.tank-gray .bottom {
+  width: 70px;
+  height: 40px;
+  background-color: #8a7472;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: 35px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+}
+
+.tank-orange {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.tank-orange .middle {
+  width: 70px;
+  height: 50px;
+  background-color: rgb(143, 97, 71);
+  position: absolute;
+}
+
+.tank-orange .top {
+  width: 70px;
+  height: 30px;
+  background-color: #da895a;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: -15px;
+}
+
+.tank-orange .bottom {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(143, 97, 71);
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: 35px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+}
+
+.tank-yellow {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.tank-yellow .middle {
+  width: 70px;
+  height: 50px;
+  background-color: #af9857;
+  position: absolute;
+}
+
+.tank-yellow .top {
+  width: 70px;
+  height: 30px;
+  background-color: #ddc174;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: -15px;
+}
+
+.tank-yellow .bottom {
+  width: 70px;
+  height: 40px;
+  background-color: #af9857;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: 35px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+}
+
+.tank-red {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.tank-red .middle {
+  width: 70px;
+  height: 50px;
+  background-color: #a13838;
+  position: absolute;
+}
+
+.tank-red .top {
+  width: 70px;
+  height: 30px;
+  background-color: #ff5252;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: -15px;
+}
+
+.tank-red .bottom {
+  width: 70px;
+  height: 40px;
+  background-color: #a13838;
+  border-radius: 60px / 25px;
+  position: absolute;
+  top: 35px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+}
+
+.Typing-Hands {
+  display: block;
+  width: 35rem;
+  margin: 0px auto;
+}
+
+#error-text {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 43px;
+  color: red;
+  text-align: center;
+  display: none;
+}
+
+#divEmpty {
+  height: 108px;
+}
+
+.refresh-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 50px;
+  background-color: #ff5252;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-decoration: none;
+  user-select: none;
+  letter-spacing: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.1s ease-out;
+  cursor: pointer;
+}
+
+.refresh-button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/* .tank-light-green {
+  cursor: url(Green-brush.png) 2 2, pointer;
+}
+
+.tank-light-blue {
+  cursor: url(Blue-brush.png) 2 2, pointer;
+}
+.tank-gray {
+  cursor: url(Gray-brush.png) 2 2, pointer;
+}
+.tank-orange {
+  cursor: url(Orange-brush.png) 2 2, pointer;
+}
+
+.tank-yellow {
+  cursor: url(Yellow-brush.png) 2 2, pointer;
+}
+
+.tank-red {
+  cursor: url(Red-brush.png) 2 2, pointer;
+} */
